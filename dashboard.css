@@ -131,10 +131,11 @@ td {
 
   .content {
     background-color: aqua;
-    padding: 10px;
+    padding: 1rem;
   }
   .content h1 {
     margin-bottom: 18px;
+    font-size: 14px;
   }
   .line {
     width: 90%;
@@ -143,7 +144,8 @@ td {
     flex-direction: column;
     gap: 25px;
     margin-bottom: 20px;
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
   }
   .image-details {
     width: 100%;
