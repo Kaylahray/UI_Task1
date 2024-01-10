@@ -106,7 +106,6 @@
 
 .table {
   max-width: 941px;
-  width: 100%;
   height: 349px;
   border-radius: 2px;
   background: #fff;
@@ -152,8 +151,15 @@ td {
     justify-content: center;
   }
   .table-cont {
+    height: 300px;
     max-width: 100%;
-    overflow-x: scroll;
+    overflow: scroll;
+    background-color: #3e4c71;
+  }
+  th,
+  td {
+    padding-block: 2rem;
+    text-align: centersss;
   }
 }
 @media screen and (min-width: 701px) and (max-width: 900px) {
@@ -167,6 +173,7 @@ td {
     width: 400px;
   }
   .table-cont {
-    overflow-x: scroll;
+    max-width: 100%;
+    overflow: scroll;
   }
 }
